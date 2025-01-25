@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans Arabic", serif;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "arabic-ui";
+    src: url(../assets/fonts/arabic-ui.otf);
+}
+
+a {
+    color: var(--primary-color);
+    font-family: "arabic-ui";
+    text-decoration: none;
+    font-weight: 700;
+    font-size: .9em;
+}

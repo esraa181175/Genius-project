@@ -1,0 +1,80 @@
+html {
+    font-size: 16px;
+}
+
+:root {
+    --orange-color: #F04B25;
+    --yellow-color: #F5A805;
+    --dark-color: #000;
+    --yellow-color-25: #F4A90540;
+    --primary-color: #12376B;
+    --secondary-color: #F5F5F5;
+    --blue-color: #286CD5;
+    --gray-color: #616161;
+    --gray-color-card-text: #686868;
+    --gray-color-card: #818181;
+    --gray-color-card-2: #DBDBDB;
+    --gray-color-card-3: #c5c1c1;
+    --card-image-layer: #F04B2526;
+    --white-color: #fff;
+    --pink-color: #f2afe4;
+    --blue-color-2: #84abda;
+
+}
+
+/* 
+.container-right {
+    padding-inline-start: 5em;
+}
+
+
+.container-left {
+    padding-inline-end: 11.375em;
+}
+
+.py {
+    padding-block: 5.55em;
+}
+
+.p-top {
+    padding-block-start: 5.55em;
+}
+
+.p-bottom {
+    padding-block-end: 5.55em;
+
+} */
+
+.container {
+    padding-inline: 10em;
+    padding-block: 2em;
+
+}
+
+.p-left {
+    padding-inline-start: 11em;
+
+}
+
+.p-right {
+    padding-inline-start: 8em;
+    padding-block: 5em;
+
+}
+
+.py {
+    padding-block: 5.55em;
+    background: rgb(209, 195, 195);
+}
+
+.p-top {
+    padding-block-start: 3em;
+}
+
+.p-bottom {
+    padding-block-end: 5.55em;
+}
+
+.m-block {
+    margin-block: 2em;
+}

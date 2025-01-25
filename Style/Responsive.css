@@ -1,0 +1,91 @@
+@media screen and (min-width:1920px) {
+    html {
+        font-size: 18px;
+    }
+
+    .Child-Diploma {
+        padding-inline: 1em;
+        padding-block: .5em;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1650px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+
+
+@media screen and (max-width:1252px) {
+    .container {
+        padding-inline: 1.22em;
+    }
+
+    html {
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .container {
+        padding-inline: 1.22em;
+    }
+
+    html {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+    font-size: 16px;
+}
+
+.container {
+    padding-inline: 11.375em;
+}
+
+.py {
+    padding-block: 5.55em;
+}
+
+.p-top {
+    padding-block-start: 5.55em;
+}
+
+.p-bottom {
+    padding-block-end: 5.55em;
+
+}

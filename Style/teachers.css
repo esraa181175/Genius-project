@@ -1,0 +1,196 @@
+.proud-of {
+    display: flex;
+    gap: 1em;
+    overflow-x: hidden;
+}
+
+.proud-of-header {
+    /* background-color: rgb(196, 194, 207); */
+    width: 50em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-inline-start: 3em;
+
+}
+
+.proud-of-contact h1 {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 4em;
+}
+
+.proud-of-contact h1 strong {
+    color: var(--yellow-color);
+    font-weight: 700;
+}
+
+.proud-of-contact p {
+    color: var(--gray-color-card);
+    font-weight: 500;
+    font-size: 1em;
+}
+
+
+.proud-of-btns {
+    /* width: 30em; */
+}
+
+.proud-of-btns button {
+    width: 7em;
+    height: 2em;
+    font-size: 1.5em;
+    border-radius: .5em;
+    border: none;
+}
+
+.proud-of-btns .first {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
+
+
+.proud-of-btns .second {
+    background-color: var(--gray-color-card-3);
+    color: var(--gray-color);
+}
+
+.proud-of-cards {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 1em;
+    /* background-color: rgb(161, 70, 24); */
+    width: 70em;
+    transform: translateX(-10em);
+
+}
+
+
+.proud-of-card-img {
+    width: 100%;
+    background-color: var(--gray-color-card-3);
+    position: relative;
+    height: 13em;
+    border-radius: .9em .9em 0 0;
+}
+
+.proud-of-cards .Second {
+    background-color: var(--pink-color);
+}
+
+.proud-of-cards .third {
+    background-color: var(--blue-color-2);
+}
+
+.proud-of-card-img img {
+    width: 100%;
+    height: 14em;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+/* ----------------------------------------------------------------------------- */
+
+.group-img {
+    /* background-color: aqua; */
+
+}
+
+.group-img-cards {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--gray-color-card-2);
+    padding: 1em 2em;
+
+}
+
+
+/* ------------------------------------------------------------------------------ */
+
+.Outstanding-teachers {
+    background-color: #975a5a;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+
+}
+
+.Outstanding-teachers-container {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #975a5a; */
+
+}
+
+
+
+
+.Outstanding-teachers-icons {
+    color: var(--gray-color-card);
+    font-size: 2.5em;
+    display: flex;
+    align-items: flex-end;
+    gap: 2em;
+
+}
+
+.Outstanding-teachers-icons i:nth-child(2) {
+    /* background-color: #909090; */
+    opacity: .5;
+}
+
+
+.Outstanding-teachers-header h3 {
+    color: var(--primary-color);
+    position: relative;
+    padding-inline-start: 4em;
+    margin-block-start: 2em;
+    font-weight: 500;
+    /* background: red; */
+}
+
+.Outstanding-teachers-header h3::after {
+    content: "";
+    width: 3em;
+    height: 1px;
+    position: absolute;
+    color: var(--gray-color);
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--gray-color);
+}
+
+.Outstanding-teachers-header h4 {
+    padding-block: 1.3em;
+}
+
+.Outstanding-teachers-header h1 {
+    font-weight: 700;
+    font-size: 3em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--primary-color);
+}
+
+.Outstanding-teachers-header h1 span {
+    font-weight: 700;
+    font-size: 1em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--orange-color);
+}
+
+.Outstanding-teachers-header p {
+    font-weight: 600;
+    font-size: 1em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--gray-color);
+}
+
+.Employment-children-icons {}
+
+
+/* ------------------------------------------------------------------------------ */

@@ -1,0 +1,1482 @@
+.master {
+    /* background-color: rgb(114, 123, 123); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 670vh;
+    
+}
+
+
+.main-1 {
+    /* background-color: #909090;   */
+    height: 100%;
+}
+
+.main-2 {
+    /* background-color: brown; */
+    height: 100%;
+}
+
+.Child-Diploma {
+    display: flex;
+    gap: 1em;
+}
+
+.orange-color {
+    color: var(--orange-color);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.blue-color {
+    color: var(--blue-color);
+}
+
+
+.yellow-color {
+    color: var(--yellow-color);
+}
+
+/* -------aside-right---------- */
+.aside-right-main {
+    width: 40em;
+    height: 10vh;
+    position: relative;
+
+}
+
+.aside-right {
+    background-color: #e6dfdf;
+    border-radius: .6em;
+    padding-block-end: 4em;
+}
+
+.aside-right-header {
+    width: 100%;
+    height: 3.8em;
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+    font-size: 1em;
+    font-weight: 300;
+    border-radius: .6em .6em 0 0;
+    text-align: center;
+    padding: .5em;
+}
+
+.aside-right h2 {
+    padding-block: 1.3em;
+    text-align: center;
+}
+
+.aside-right h2 span:nth-of-type(1) {
+    font-weight: 700;
+    font-size: 2em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--yellow-color);
+}
+
+.aside-right h2 span:nth-of-type(2) {
+    font-weight: 700;
+    font-size: 2em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--primary-color);
+}
+
+.aside-right h2 span:nth-of-type(3) {
+    font-weight: 700;
+    font-size: 2em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--primary-color);
+}
+
+
+.aside-right-img {
+    width: 23.4em;
+    height: 13.18em;
+    border-radius: 1em;
+    overflow: hidden;
+    background-color: aqua;
+    transform: translate(-10%);
+
+}
+
+.aside-right-img img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.Payment-Details {
+    width: 26.4em;
+    height: 6.01em;
+    margin-block: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: var(--yellow-color);
+    /* color: var(--white-color); */
+    border-radius: .5em;
+    transform: translatex(-6%);
+    /* padding: 1em ; */
+
+}
+
+.Amount {}
+
+.Amount h2 {
+    color: var(--white-color);
+    font-size: 1.7em;
+    font-weight: 200;
+    font-family: "IBM Plex Sans Arabic";
+}
+
+
+.Amount h2 strong {
+    font-weight: 700;
+    font-size: 1.5em;
+    color: var(--white-color);
+}
+
+
+
+
+
+.Details {
+    width: fit-content;
+    font-size: .8em;
+    color: var(--gray-color);
+    /* padding: 1em 2em; */
+}
+
+.Details p:nth-of-type(1) {
+    position: relative;
+}
+
+.Details p:nth-of-type(1)::after {
+    content: " ";
+    border-bottom: .2em solid var(--gray-color);
+    width: 15.5em;
+    height: .2em;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-block: 2em 0;
+
+
+
+}
+
+.exclamation {
+    width: 27em;
+    height: 4em;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+    position: relative;
+    transform: translatex(-6%);
+
+}
+
+.exclamation i {
+    top: 0;
+    right: 0;
+    color: var(--gray-color);
+    font-size: .7em;
+    /* background-color: var(--gray-color-card-text); */
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    border: .2em solid var(--gray-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 2em; */
+}
+
+.exclamation p {
+    /* height: 100%; */
+    color: var(--gray-color-card-text);
+    bottom: 0;
+    padding-block: 2em;
+
+}
+
+.exclamation p span {
+    font-weight: 700;
+    font-size: 1em;
+
+}
+
+/* ------------- */
+.Details-sessions {
+    width: 25em;
+    height: 6em;
+    display: flex;
+    /* background-color: aqua; */
+    gap: 3em;
+    transform: translateX(-6%);
+    margin-block: .8em;
+    /* border-bottom: .1em solid var(--gray-color-card-text); */
+
+}
+
+.Details-sessions-by-year {
+    height: 100%;
+    display: flex;
+    column-gap: .7em;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: "IBM Plex Sans Arabic";
+
+}
+
+.Details-sessions-by-year i {
+    color: var(--gray-color);
+    font-size: 1.4em;
+}
+
+.Details-sessions p {
+    color: var(--gray-color-card-text);
+
+}
+
+.Details-sessions p span {
+    font-weight: 700;
+
+}
+
+.Details-sessions-by-year div:nth-of-type(2) {
+    transform: translateY(1em);
+}
+
+.Details-sessions-by-week {
+    transform: translateY(1em);
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+    font-size: .9em;
+    font-weight: 400;
+}
+
+.Details-sessions-by-week::after {
+    content: " ";
+    width: .2em;
+    height: 80%;
+    position: absolute;
+    border-right: .2em solid var(--gray-color-card-text);
+    transform: translateX(500%);
+    /* display: flex;
+    grid-area: 2em; */
+
+}
+
+/* _______________ */
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+    /* background-color: rgb(228, 189, 189); */
+}
+
+.description::after {
+    content: "";
+    width: 25em;
+    height: 2em;
+    position: absolute;
+    border-top: .1em solid var(--gray-color);
+    left: 0;
+    transform: translateX(7%);
+
+}
+
+.description div {
+    display: flex;
+    gap: .9em;
+    padding-inline: 1.7em;
+}
+
+.vote-parents i {
+    color: var(--yellow-color);
+    font-size: 1.5em;
+    transform: translateY(.1em);
+
+}
+
+.vote-parents p {
+    color: var(--gray-color);
+    font-size: 1em;
+    padding-top: 1.5em;
+
+}
+
+.vote-parents p span {
+    color: var(--yellow-color);
+    font-weight: 500;
+}
+
+.complete-course i {
+    color: green;
+    font-size: 1.2em;
+    width: .9em;
+    height: .9em;
+}
+
+.complete-course p {
+    color: var(--gray-color);
+    font-size: .7m;
+}
+
+.complete-course p span {
+    color: green;
+    font-weight: 500;
+
+}
+
+.sessions {
+    color: var(--gray-color);
+}
+
+.age-student {
+    color: var(--gray-color);
+}
+
+.age-student i {
+    color: var(--gray-color);
+    width: .9em;
+    font-size: 1.3em;
+    height: .9em;
+    /* background-color: red; */
+}
+
+.age-student span {
+    font-weight: 500;
+}
+
+.count-student {
+    color: var(--gray-color);
+}
+
+.count-student span {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.join-us {
+    width: 23.4em;
+    height: 3.7em;
+    margin: auto;
+    margin-block: 1.5em;
+    background-color: var(--yellow-color);
+    border-radius: 2em;
+    padding-inline: 1.9em;
+
+    color: var(--primary-color);
+
+}
+
+.join-us h2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "IBM Plex Sans Arabic";
+    font-weight: 700;
+    font-size: 1.6em;
+
+}
+
+.aside-right .reservation {
+    width: 23.4em;
+    height: 3.7em;
+    margin: auto;
+    margin-block: 1.5em;
+    border-radius: 2em;
+    padding-inline: 1.9em;
+    border: .1em solid var(--primary-color);
+}
+
+.reservation h2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: var(--gray-color-card-text);
+}
+
+.aside-right-footer {
+    display: flex;
+    gap: 1em;
+    padding-inline: 5.4em;
+    margin: auto;
+    color: var(--gray-color);
+
+}
+
+.aside-right-footer .add-Favorites {
+    display: flex;
+    gap: 1em;
+}
+
+.aside-right-footer .share-diploma {
+    display: flex;
+    gap: 1em;
+}
+
+
+/* ------aside-left-section-1----------- */
+
+.aside-left-main {
+    width: 33.5em;
+    height: 5vh;
+    /* background-color: aqua; */
+}
+
+.aside-left {}
+
+.child-develo {
+    width: 100%;
+    height: 19em;
+    background-color: rgb(119, 128, 0);
+    position: relative;
+    border-radius: 2em;
+    overflow: hidden;
+
+}
+
+.child-develo::after {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
+    position: absolute;
+}
+
+.aside-left-logo {
+    background-image: url(https://s3-alpha-sig.figma.com/img/eaca/dd50/acd52215c49c33c17694c01ef000717b?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Y-yLXbrNhXLhg9-yJw9VdpfZ9MV1ka-VwpIxAJOGJ1brrgym-2hfDViL8TA8HKJ10YpnyDYu8uvLSrmmM4DqHWClNZDFLQPzjrraLk~Ga7z5U~CdDF3qVY8yIKDradI74k0sPKaqD9qcOzU80l8hh8nw8jHXlhqneu-P-NzGlh9VMjWEa2B6fijoBfltx1dcktJUG8XSBh~0i5mIFmwQSk5MHSYYJUShfwfoi43FCoXWHoxIJw0O8aSeV5OOo8eQ3JqTMoUmVhC243geA~b6oDv5yae-YN9d-ay21PGTBjVv44sBAiubBmn2DmXiSHjW6Tg2lyfgDQ4xQuicPAg65A__);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.child-develo i {
+    font-size: 5em;
+    position: absolute;
+    color: var(--gray-color);
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 50%;
+    width: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+
+/* ------aside-left-section-2------------ */
+.reservation h3 {
+    color: var(--primary-color);
+    position: relative;
+    padding-inline-start: 4em;
+    margin-block-start: 2em;
+    font-weight: 500;
+    /* background: red; */
+}
+
+.reservation h3::after {
+    content: "";
+    width: 3em;
+    height: 1px;
+    position: absolute;
+    color: var(--gray-color);
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--gray-color);
+}
+
+.reservation h4 {
+    padding-block: 1.3em;
+}
+
+.reservation h4 span:nth-of-type(1) {
+    font-weight: 700;
+    font-size: 3em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--yellow-color);
+}
+
+.reservation h4 span:nth-of-type(2) {
+    font-weight: 700;
+    font-size: 3em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--primary-color);
+}
+
+.reservation h4 span:nth-of-type(3) {
+    font-weight: 700;
+    font-size: 3em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--primary-color);
+}
+
+.reservation p {
+    font-weight: 400;
+    font-size: 1em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--gray-color);
+}
+
+/* ------aside-left-section-3------------ */
+.about-diploma-main {
+    background-color: rgba(197, 202, 202, 0.5);
+    border-radius: .6em .6em;
+}
+
+.about-diploma-main i {
+    color: var(--yellow-color);
+    padding-inline-start: .5em;
+
+}
+
+.about-diploma-main p {
+    color: var(--gray-color);
+
+}
+
+.about-diploma-main strong {
+    color: var(--gray-color);
+    font-weight: 500;
+    font-size: 1em;
+
+}
+
+
+.about-diploma {
+    height: 4em;
+    background-color: var(--yellow-color);
+    border-radius: .8em .8em 0 0;
+    color: var(--white-color);
+    padding-inline-start: 2em;
+    padding-block: 1em;
+
+}
+
+.about-diploma-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-block: 2em;
+}
+
+.about-diploma-details div {
+    display: flex;
+    gap: 1em;
+}
+
+.about-diploma-details i {
+    font-size: 1.2em;
+}
+
+
+.about-diploma-details div:last-of-type {
+    height: 3em;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3em;
+    background-color: rgba(197, 202, 202, 0.5);
+    font-size: 1.2em;
+    transform: translateX(-100%);
+
+}
+
+.more i {
+    font-size: .7em;
+    color: var(--gray-color);
+}
+
+/* __________________________ */
+.Contact-Diploma {
+    background-color: #F5F5F5;
+    border-radius: .6em .6em;
+
+}
+
+.Contact-Diploma-header {
+    background-color: var(--gray-color-card-3);
+    color: var(--gray-color);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 4em;
+    border-radius: .6em .6em 0 0;
+    /* margin-block: 3em; */
+    font-size: 1.2em;
+    padding-inline: 1em;
+    padding-block: 1em;
+}
+
+.Contact-Diploma-header svg {}
+
+.intro-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5em;
+    padding-inline: 2em;
+    padding-block: 2em;
+    margin: auto;
+    background-color: var(--secondary-color);
+    border-radius: 0 0 .6em .6em;
+
+}
+
+.Intro {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gray-color-card-2);
+    color: var(--gray-color);
+    height: 3.5em;
+    border-radius: .8em;
+    padding: .5em .8em;
+
+}
+
+.one-year {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.one-year-active {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gray-color-card-3);
+    color: var(--gray-color);
+    height: 3.5em;
+    border-radius: .8em .8em 0 0;
+    padding: .5em .8em;
+}
+
+.one-year .active {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: var(--gray-color-card-2);
+}
+
+.one-year .active i {
+    color: var(--gray-color);
+    padding-inline-start: 1em;
+    /* padding-block: 1em ; */
+    height: 2.5em;
+}
+
+.one-year .active div {
+    display: flex;
+    gap: 1em;
+    font-size: 1em;
+    color: #909090;
+    font-weight: 500;
+}
+
+.Second-year {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gray-color-card-2);
+    color: var(--gray-color);
+    height: 3.5em;
+    border-radius: .8em;
+    padding: .5em .8em;
+}
+
+.third-year {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gray-color-card-2);
+    color: var(--gray-color);
+    height: 3.5em;
+    border-radius: .8em;
+    padding: .5em .8em;
+}
+
+.four-year {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gray-color-card-2);
+    color: var(--gray-color);
+    height: 3.5em;
+    border-radius: .8em;
+    padding: .5em .8em;
+}
+
+.five-year {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gray-color-card-2);
+    color: var(--gray-color);
+    height: 3.5em;
+    border-radius: .8em;
+    padding: .5em .8em;
+}
+
+/* ______________________________ */
+.Diploma-features {
+    margin-block: 3em;
+    background-color: var(--secondary-color);
+    border-radius: .6em;
+    overflow: hidden;
+}
+
+.Diploma-features-header {
+    background-color: var(--gray-color-card-3);
+    color: var(--gray-color);
+    display: flex;
+    justify-content: space-between;
+    height: 3.4em;
+    padding: .6em 1.5em;
+}
+
+.Diploma-features-header h2 {
+    color: var(--gray-color);
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.Diploma-features-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: var(--secondary-color);
+    padding: 2em 1em;
+}
+
+.Diploma-features-card {
+    display: flex;
+    height: 7em;
+    border-radius: .6em;
+}
+
+.Diploma-features-card-img {
+    height: 100%;
+    width: 15em;
+    overflow: hidden;
+    /* border-radius: 0 .6em 0 0; */
+}
+
+.Diploma-features-card-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0 .6em .6em 0;
+}
+
+.Diploma-features-card-about {
+    color: var(--white-color);
+    font-size: 1em;
+    padding: 1em;
+}
+
+
+.Diploma-features-card-about h2 {
+    color: var(--white-color);
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: .3em;
+}
+
+.Diploma-features-card-about p {
+    color: var(--white-color);
+    font-size: .8em;
+    line-height: 2em;
+}
+
+.Diploma-features-cards .direction {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.direction-img {
+    border-bottom-right-radius: .6em;
+    /* border-radius: .6em 0;
+    border-radius:  .6em  0 0 .6em ; */
+}
+
+.Diploma-features-card .direction-img {
+    border-radius: .6em 0 0 .6em;
+
+}
+
+
+.Diploma-features-card .direction-img img {
+    border-radius: .6em 0 0 .6em;
+
+}
+
+.Diploma-features-cards .first {
+    background-color: var(--primary-color);
+}
+
+.Diploma-features-cards .Second {
+    background-color: var(--orange-color);
+}
+
+.Diploma-features-cards .third {
+    background-color: var(--blue-color);
+}
+
+.Diploma-features-cards .four {
+    background-color: var(--yellow-color);
+}
+
+.Diploma-features-cards .five {
+    background-color: var(--primary-color);
+}
+
+.Diploma-features-cards .six {
+    background-color: var(--orange-color);
+}
+
+/* _______________________________________________ */
+
+.Learner-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    background-color: var(--secondary-color);
+    padding-block-end: 2em;
+}
+
+.Learner-benefits-header {
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray-color);
+    height: 3.4em;
+    border-radius: .6em;
+    background-color: var(--gray-color-card-2);
+    padding: .3em .9em;
+}
+
+.Learner-benefits-header h2 {
+    font-weight: 500;
+}
+
+.Learner-benefits-header svg {
+    font-size: 1.2em;
+    width: 2em;
+    height: 2em;
+}
+
+.Learner-benefits-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.4em 1em;
+    flex-wrap: wrap;
+    padding-inline: .5em;
+    /* padding-block: .3em; */
+    margin: auto;
+
+
+}
+
+.Learner-benefits-card {
+    display: flex;
+    flex-direction: column;
+    gap: .4em;
+    width: calc((100% - 2em) / 2);
+    height: 14em;
+    border-radius: .6em;
+    background-color: var(--gray-color);
+    padding-block-start: 2.5em;
+    padding-inline: 2em;
+    color: var(--white-color);
+
+}
+
+.Learner-benefits-card i {
+    font-size: 2em;
+    width: 1.3em;
+    height: 1.3em;
+}
+
+.Learner-benefits-card h3 {
+    font-size: 1.1em;
+
+}
+
+.Learner-benefits-card p {
+    font-size: .7em;
+
+}
+
+.Learner-benefits-cards div:nth-of-type(1) {
+    background-color: var(--orange-color);
+}
+
+.Learner-benefits-cards div:nth-of-type(2) {
+    background-color: var(--blue-color);
+}
+
+.Learner-benefits-cards div:nth-of-type(3) {
+    background-color: var(--primary-color);
+}
+
+.Learner-benefits-cards div:nth-of-type(4) {
+    background-color: var(--yellow-color);
+}
+
+/* ______________________________________________ */
+.Course-teachers {}
+
+.Course-teachers-header {
+    display: flex;
+    justify-content: space-between;
+    height: 4em;
+    font-size: 1.5em;
+    color: var(--gray-color-card-text);
+    width: 27em;
+}
+
+.Course-teachers-header h1 {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+
+.Course-teachers-header strong {
+    color: var(--blue-color);
+    font-weight: 700;
+}
+
+.Course-teachers-header-icons {
+    padding-inline-end: 2.5em;
+}
+
+.Course-teachers-header-icons i:nth-of-type(2) {
+    margin-right: em;
+    /* color:var(--secondary-color); */
+}
+
+
+.Course-teachers-header i {
+    margin: .4em;
+    font-size: 2em;
+}
+
+
+.Course-teachers-header i {}
+
+
+/* - - - */
+.Course-teachers {
+    position: relative;
+    width: 40em;
+}
+
+.Course-teachers-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.Course-teachers-card {}
+
+.Course-teachers-card-img {
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+    height: 13em;
+    border-radius: .9em .9em 0 0;
+}
+
+.Course-teachers-card .Second {
+    background-color: var(--pink-color);
+}
+
+.Course-teachers-card .third {
+    background-color: var(--blue-color-2);
+}
+
+.Course-teachers-card-img img {
+    width: 100%;
+    height: 14em;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+}
+
+.Course-teachers-card-contact {
+    padding: 2em;
+    background-color: var(--secondary-color);
+}
+
+.Course-teachers-card-contact h3 {
+    margin-bottom: .5em;
+    font-weight: 700;
+}
+
+.Course-teachers-card-contact p {
+    margin-bottom: .5em;
+    font-weight: 400;
+    color: var(--gray-color);
+}
+
+/* - - - */
+
+.opacity {
+    background: linear-gradient(to right, #FFF 10.8%, #FFF 40.63%, rgba(255, 255, 255, 0.00) 99.43%);
+    width: 11em;
+    height: 10em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+.Customer-reviews {
+    /* background-color: #975a5a; */
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+.Customer-reviews-container {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 3em;
+
+}
+
+.Customer-reviews-header {}
+
+
+.Customer-reviews-icons {
+    color: var(--gray-color-card-3);
+    font-size: 4em;
+    display: flex;
+    align-items: flex-end;
+    gap: 1em;
+
+}
+
+.Customer-reviews-icons i:nth-child(2) {
+    /* background-color: #909090; */
+    opacity: .2;
+}
+
+
+.Customer-reviews-header h3 {
+    color: var(--primary-color);
+    position: relative;
+    padding-inline-start: 4em;
+    margin-block-start: 2em;
+    font-weight: 500;
+    /* background: red; */
+}
+
+.Customer-reviews-header h3::after {
+    content: "";
+    width: 3em;
+    height: 1px;
+    position: absolute;
+    color: var(--gray-color);
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--gray-color);
+}
+
+.Customer-reviews-header h4 {
+    padding-block: 1.3em;
+}
+
+.Customer-reviews-header h1 {
+    font-weight: 700;
+    font-size: 3em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--primary-color);
+}
+
+.Customer-reviews-header h1 span {
+    font-weight: 700;
+    font-size: 1em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--orange-color);
+}
+
+.Customer-reviews-header p {
+    font-weight: 600;
+    font-size: 1em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--gray-color);
+}
+
+.Customer-reviews-icons {}
+
+/* - - - */
+.Customer-reviews-cards {
+    padding-inline: 3em;
+    display: flex;
+    gap: 1em;
+}
+
+.Customer-reviews-card {
+    width: calc((100% - 2em)/3);
+    background-color: var(--gray-color-card-2);
+    margin-block-start: 2em;
+    border-radius: .9em;
+    height: 10em;
+    /* font-size: .8em; */
+    padding: 1.5em;
+
+}
+
+.Customer-reviews-card p {
+    font-size: 1em;
+    color: var(--gray-color);
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+
+.Employment-children {
+    /* background-color: #975a5a; */
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+.Employment-children-container {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 3em;
+
+}
+
+.Employment-children-header {}
+
+
+.Employment-children-icons {
+    color: var(--gray-color-card-3);
+    font-size: 4em;
+    display: flex;
+    align-items: flex-end;
+    gap: 1em;
+
+}
+
+.Employment-children-icons i:nth-child(2) {
+    /* background-color: #909090; */
+    opacity: .2;
+}
+
+
+.Employment-children-header h3 {
+    color: var(--primary-color);
+    position: relative;
+    padding-inline-start: 4em;
+    margin-block-start: 2em;
+    font-weight: 500;
+    /* background: red; */
+}
+
+.Employment-children-header h3::after {
+    content: "";
+    width: 3em;
+    height: 1px;
+    position: absolute;
+    color: var(--gray-color);
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--gray-color);
+}
+
+.Employment-children-header h4 {
+    padding-block: 1.3em;
+}
+
+.Employment-children-header h1 {
+    font-weight: 700;
+    font-size: 3em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--primary-color);
+}
+
+.Employment-children-header h1 span {
+    font-weight: 700;
+    font-size: 1em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--orange-color);
+}
+
+.Employment-children-header p {
+    font-weight: 600;
+    font-size: 1em;
+    font-family: "IBM Plex Sans Arabic";
+    color: var(--gray-color);
+}
+
+.Employment-children-icons {}
+
+/* - - - */
+.Employment-children-cards {
+    padding-inline: 3em;
+    display: flex;
+    gap: 1em;
+    /* background-color: var(--gray-color); */
+}
+
+.Employment-children-card {
+    width: calc((100% - 3em)/4);
+    background-color: var(--gray-color-card-2);
+    margin-block-start: 2em;
+    border-radius: .9em .9em 0 0;
+    /* overflow: hidden; */
+    height: 20em;
+
+
+}
+
+.Employment-children-img {
+    height: 100%;
+    border-radius: .9em .9em 0 0;
+
+    /* width: 100%; */
+
+}
+
+.Employment-children-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .9em .9em 0 0;
+}
+
+.Employment-children-card .Employment-children-contact {
+    background-color: var(--secondary-color);
+    height: 8em;
+    padding: 2em;
+    border-radius: 0 0 .9em .9em;
+}
+
+.Employment-children-card p {
+    font-size: 1em;
+    color: var(--gray-color);
+    padding-block: .7em;
+}
+
+.Employment-children-card h3 {
+    font-size: 1.4em;
+    font-weight: 700;
+
+
+
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/* start home ads-container  */
+.ads-container {
+    /* height: 15em; */
+    background: var(--blue-color);
+    border-radius: 0.8em;
+    display: flex;
+    gap: 4em;
+    padding: 2.5em 3em;
+    margin-block: 15em;
+}
+
+.ads-image {
+    /* transform: translateY(-2em); */
+    position: relative;
+    height: 15.6em;
+    width: 25.9em;
+}
+
+.ads-image img:not(.ads-arrow, .ads-paper) {
+    height: 27.25em;
+    width: 100%;
+    position: absolute;
+    object-fit: contain;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ads-arrow {
+    position: absolute;
+    left: -2em;
+    width: 8em;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ads-paper {
+    position: absolute;
+}
+
+.ads-paper:nth-of-type(2) {
+    left: -2em;
+    top: -4em;
+}
+
+.ads-paper:nth-of-type(3) {
+    right: 3em;
+    top: 3em;
+    width: 4em;
+}
+
+.ads-content {
+    color: var(--white-color);
+    /* width: 40%; */
+    flex: 1;
+}
+
+.ads-content h3 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.ads-content p {
+    margin-bottom: 0.5em;
+}
+
+.ads-content button {
+    padding: 1em 3em;
+    background: var(--white-color);
+    color: var(--blue-color);
+    border-radius: 0.8em;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media (max-width: 1251px) {
+
+    .course-card,
+    .instructor-card {
+        width: calc((100% - 2em) / 3);
+    }
+}
+
+@media (max-width: 1024px) {
+    .goals-container-service {
+        gap: 3em;
+        flex-wrap: wrap;
+    }
+
+    .goals-container-service-image,
+    .goals-container-service-faqs {
+        width: 100%;
+    }
+
+    .goals-container-service-image {
+        order: -1;
+    }
+
+    .goals-results-container {
+        flex-wrap: wrap;
+    }
+
+    .results {
+        width: 100% !important;
+    }
+
+    .courses .section-header-container {
+        flex-wrap: wrap;
+    }
+
+    .courses .section-header-container .section-header,
+    .courses .section-header-container .section-header-description {
+        width: 100%;
+    }
+
+    .testmoinal-card:nth-of-type(odd) {
+        display: none;
+    }
+
+    .testmoinal-card,
+    .instructor-card {
+        width: 100%;
+    }
+
+
+    .ads-container {
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    .ads-image {
+        width: 100%;
+        height: fit-content;
+        transform: translateY(80px);
+        /* display: none; */
+    }
+
+    .ads-image img:not(.ads-arrow, .ads-paper) {
+        /* background: red; */
+        /* pos */
+        position: static;
+        height: 12em;
+        /* height: 100%; */
+    }
+
+    .ads-paper:nth-of-type(2) {
+        top: -9em;
+        left: -3em;
+    }
+
+    .ads-paper:nth-of-type(3) {
+        right: -2em;
+        top: -4em;
+    }
+
+    .ads-arrow {
+        position: absolute;
+        left: -2em;
+        width: 5em;
+        top: 50%;
+        transform: translateY(-123%);
+    }
+}
+
+@media (max-width: 768px) {
+    .course-card {
+        width: 100%;
+    }
+
+    .course-image {
+        height: 22em;
+    }
+
+    .course-card img {
+        object-fit: cover;
+        object-position: top center;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------- */
