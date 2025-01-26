@@ -3,10 +3,7 @@
         font-size: 18px;
     }
 
-    .Child-Diploma {
-        padding-inline: 1em;
-        padding-block: .5em;
-    }
+ 
 }
 
 
@@ -60,7 +57,7 @@
 
 
 
-
+/* 
 
 
 
@@ -74,7 +71,7 @@ html {
 
 .py {
     padding-block: 5.55em;
-}
+} */
 
 .p-top {
     padding-block-start: 5.55em;

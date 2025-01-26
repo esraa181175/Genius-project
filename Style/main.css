@@ -1,3 +1,12 @@
+/* @import "./reset.css";
+@import "./variables.css";
+@import "./responsive.css";
+@import "./navbar.css";
+@import "./heroBanner.css";
+@import "./sectionHeader.css";
+@import "./home.css";
+@import "./footer.css"; */
+
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Fira+Code:wght@300..700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kufam:ital,wght@0,400..900;1,400..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IE+Guides&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 @import "./navbar.css";
 @import "./reset.css";
@@ -5,63 +14,5 @@
 @import "./courses.css";
 @import "./footer.css";
 @import "./teachers.css";
-
-
-
-.hero-banner .container {
-    display: flex;
-}
-
-.hero-banner-content {
-    display: flex;
-    gap: .8em;
-    flex-direction: column;
-}
-
-.hero-banner-content h2 {
-    font-size: 4em;
-}
-
-.hero-banner-content h2 span:nth-of-type(1) {
-    color: var(--primary-color);
-    font-weight: 700;
-}
-
-.hero-banner-content h2 span:nth-of-type(2) {
-    color: var(--yellow-color);
-    font-weight: 700;
-}
-
-.hero-banner-content h2 span:nth-of-type(3) {
-    color: var(--orange-color);
-    font-weight: 700;
-}
-
-.hero-banner-content p {
-    font-weight: 500;
-    font-size: 1.1em;
-    color: var(--gray-color);
-}
-
-.hero-banner-btns {
-    display: flex;
-    gap: 3.2em;
-}
-
-.hero-banner-btns a {
-    padding-block: .8em;
-    padding-inline: 1.8em;
-    border-radius: .31em;
-    font-weight: 400;
-    font-size: .9em;
-}
-
-.hero-banner-btns a:nth-of-type(1) {
-    background: var(--orange-color);
-    color: var(--white-color);
-}
-
-.hero-banner-btns a:nth-of-type(2) {
-    background: var(--secondary-color);
-    color: var(--gray-color);
-}
+@import "./heroBanner.css";
+@import "./home.css";

@@ -21,6 +21,7 @@
 .Child-Diploma {
     display: flex;
     gap: 1em;
+    
 }
 
 .orange-color {
@@ -441,7 +442,9 @@
     /* background-color: aqua; */
 }
 
-.aside-left {}
+.aside-left {
+    
+}
 
 .child-develo {
     width: 100%;
